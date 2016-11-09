@@ -1,5 +1,5 @@
 ﻿Funcionalidade: Formulario de Contato
-	Eu como usário, preciso contactar o prestador de serviço
+	Eu como usuário, preciso contactar o prestador de serviço
 	Para que seja necessário um possível retorno
 	Preciso preencher as informações corretamente.
 
