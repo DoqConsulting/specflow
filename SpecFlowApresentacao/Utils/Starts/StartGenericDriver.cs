@@ -29,8 +29,16 @@ namespace SpecFlowApresentacao.Utils.Starts
         public void after()
 
         {
+            if (ScenarioContext.Current.TestError != null)
+            {
+
+                Data.Builders.JobMidia.TearDown.TakeScreenshot(Instance);
+            }
+
             Dispose();
 
         }
+
+
     }
 }
