@@ -24,7 +24,7 @@ Esquema do Cenario: Preenchimento do formulario com email incorreto
 	E para entrar em contato e necessario informar todos os dados obrigatorios corretamente exceto email: <Nome>,<E-mail>,<Telefone>,<Mensagem>
 	Entao o formulario irá alertar o preenchimento incorreto do email 'Formato de e-mail inválido'
 
-	Exemplos: 
+	Exemplos:
 	 |Nome		|E-mail		|Telefone	  | Mensagem		  |
 	 |Franklin	|franklinjob|(21)991475281|	Teste de Mensagem |
 
