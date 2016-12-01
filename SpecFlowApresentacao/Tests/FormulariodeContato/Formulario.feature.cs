@@ -41,8 +41,8 @@ namespace SpecFlowApresentacao.Tests.FormulariodeContato
             builder.RegisterModule(new ConfigurationSettingsReader());
             this.container = builder.Build();
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Formulario de Contato", "Eu como usuário, preciso contactar o prestador de serviço\nPara que seja necessári" +
-                    "o um possível retorno\nPreciso preencher as informações corretamente.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Formulario de Contato", "Eu como usuário, preciso contactar o prestador de serviço\r\nPara que seja necessár" +
+                    "io um possível retorno\r\nPreciso preencher as informações corretamente.", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
