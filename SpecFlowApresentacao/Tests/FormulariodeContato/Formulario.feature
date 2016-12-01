@@ -12,7 +12,7 @@ Esquema do Cenario: Preenchimento do formulario corretamente
 	Quando  eu clicar em Enviar
 	Entao o site ira informar a mensagem 'Sua mensagem foi enviada com sucesso.'
 
-	Exemplos: 
+	Exemplos:
 	 |Nome		|E-mail					|Telefone	  | Mensagem		  |
 	 |Franklin	|franklinjob@hotmail.com|(21)991475281|	Teste de Mensagem |
 
